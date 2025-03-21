@@ -8,7 +8,7 @@ class Room {
 
     public Room(String description) {
         items = new ArrayList<>();
-        description = description;
+        this.description = description;
     }
 
     public void addItem(Item item) {

@@ -9,4 +9,8 @@ class RangedWeapon extends Weapon {
         this.ammo = ammo;
     }
 
+    @Override
+    public void attack(int damage) {
+
+    }
 }
